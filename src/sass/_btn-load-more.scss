@@ -1,0 +1,17 @@
+.load-more {
+  width: 150px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+  border-radius: 50px;
+  border: 2px dotted #9da79c;
+  color: #524e4e;
+  margin-bottom: 20px;
+  transition: transform 250ms linear;
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,79 @@
+.gallery {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card-link {
+  width: 100%;
+  flex-basis: calc((100% - 60px) / 4);
+  transition: transform 250ms linear;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  width: 100%;
+  background-color: #d7e2d6;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+}
+
+.info-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  color: #524e4e;
+  margin: 0;
+  padding: 10px;
+}
+
+b {
+  margin-bottom: 7px;
+}
+
+.box-likes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.is-hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+ul {
+  list-style-type: none;
+}
